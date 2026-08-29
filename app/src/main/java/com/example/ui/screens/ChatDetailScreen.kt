@@ -160,7 +160,6 @@ fun ChatDetailScreen(
         Column(
             modifier = Modifier
                 .fillMaxSize()
-                .imePadding()
         ) {
             // Header Top Bar
             Surface(
@@ -393,8 +392,9 @@ fun ChatDetailScreen(
             Box(
                 modifier = Modifier
                     .fillMaxWidth()
-                    .padding(horizontal = 6.dp, vertical = 6.dp)
+                    .imePadding()
                     .navigationBarsPadding()
+                    .padding(horizontal = 6.dp, vertical = 6.dp)
             ) {
                 if (isRecordingVoice) {
                     VoiceNoteRecorderBar(
