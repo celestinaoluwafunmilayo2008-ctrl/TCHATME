@@ -1,0 +1,6 @@
+{
+  "name": "TChatMe",
+  "description": "WhatsApp-style messaging and HD voice & video calling app with real-time phone contact sync, rich chats, voice notes, status updates, and interactive call screens.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
